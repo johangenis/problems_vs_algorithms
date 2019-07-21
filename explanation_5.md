@@ -1,6 +1,6 @@
 # Problems vs Algorithms - Problem 5 - Autocomplete with Tries - Explanation
 
-## Logic implemented
+## Design Choices.
 TrieNode and Trie classes were implemented.
 
 Each TrieNode carries the following attributes:

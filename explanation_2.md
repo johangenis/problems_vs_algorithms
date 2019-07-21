@@ -1,6 +1,6 @@
 # Problems vs Algorithms - Problem 2 - Search in a Rotated Sorted Array - Explanation
 
-## Logic implemented
+## Design Choices.
 Binary Search technique was used to locate the value within the rotated sorted array.
 
 For each iteration, the element in the "middle" was located and compare to the target value. However, as the array is sorted and rotated, there are 3 possible cases, depends on rotated status of the array:

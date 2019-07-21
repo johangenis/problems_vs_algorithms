@@ -1,6 +1,6 @@
 # Problems vs Algorithms - Problem 6 - Unsorted Integer Array - Explanation
 
-## Logic implemented
+## Design Choices.
 Maintain 2 variables for the min/max values.
 
 To find the min/max value in an un-sorted array, Linear Search algorithm was used:

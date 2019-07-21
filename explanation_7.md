@@ -1,6 +1,6 @@
 # Problems vs Algorithms - Problem 7 - Request Routing in a Web Server with a Trie - Explanation
 
-## Logic implemented
+## Design Choices.
 RouteTrieNode, RouteTrie and Router classes were implemented.
 
 Each RouteTrieNode carries the following attributes:

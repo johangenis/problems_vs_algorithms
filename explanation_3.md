@@ -1,6 +1,6 @@
 # Problems vs Algorithms - Problem 3 - Rearrange Array Digits - Explanation
 
-## Logic implemented
+## Design Choices.
 Firstly, heap sort was used to sort the digit array
 
 Afterwards, traverse the sorted list and construct the 2 numbers respectively:
@@ -16,7 +16,7 @@ The run time complexity is the same as the Heap Sort algorithm, which is of O(nl
 ## Space complexity
 Firstly, Heap Sort use in-place value comparison and swapping. Heap Sort is of constant space complexity.
 
-Afterwards, the construction of 2 values take a portion of the space of the input array size. 
+Afterwards, the construction of 2 values take a portion of the space of the input array size.
 Afterwards, the construction of the 2 values was done by a single traversal of the array, which grows linearly as the size of input.
 
 As a result, the overall space complexity is of O(n).
